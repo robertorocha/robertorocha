@@ -6,4 +6,4 @@ app.get('/',(req,res)=>{
 		res.status(200).send('olá mundo')
 	})
 
-app.listen(80,()=>console.log('start'));
+app.listen(process.env.PORT || 80,()=>console.log('start'));

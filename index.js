@@ -3,8 +3,7 @@ const app=express();
 const port=8000;
 app.use(express.json());
 app.get('/',(req,res)=>{
-		res.headers.testeUnitel = 'teste';
-		res.status(200).send(data)
+		res.status(200).send('olá mundo')
 	})
 
 });

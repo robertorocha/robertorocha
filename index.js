@@ -6,5 +6,4 @@ app.get('/',(req,res)=>{
 		res.status(200).send('olá mundo')
 	})
 
-});
 app.listen(8000,()=>console.log('start'));
